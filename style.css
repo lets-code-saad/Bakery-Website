@@ -1,0 +1,58 @@
+/* Inter Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: "Inter", sans-serif;
+}
+
+/* Font Sizes */
+.fs-10{
+    font-size: 10px!important;
+}
+.fs-20{
+    font-size: 20px!important;
+}
+.fs-40{
+    font-size: 40px!important;
+}
+
+/* Colours */
+.text-pink{
+    color: #EC2A77!important;
+}
+.bg-pink{
+    background-color: #EC2A77!important;
+}
+.bg-light-pink{
+    background-color: #ff99c2!important;
+}
+.bg-light-blue{
+    background-color: #DFFFFA!important;
+}
+
+/* Border Colours */
+.border-pink{
+        border-color: #EC2A77!important;
+    }
+
+    /* Margins */
+    .mb-15{
+        margin:-15px 0 0 0;
+    }
+
+    /* Gradient Colour */
+    .first-section{
+        background: linear-gradient(#AAD4CE,#FFFFFF,#EC2A77A3);
+}
+/* Cursor  */
+.cursor-pointer{
+    cursor: pointer !important;;
+}
+
+li.hover{
+    color: #ec2a77 !important;;
+}
