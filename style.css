@@ -19,6 +19,9 @@ body{
 .fs-40{
     font-size: 40px!important;
 }
+.fs-60{
+    font-size: 60px!important;
+}
 
 /* Colours */
 .text-pink{
@@ -41,13 +44,33 @@ body{
 
     /* Margins */
     .mb-15{
-        margin:-15px 0 0 0;
+        margin-top:-15px;
+    }
+    .mb-25{
+        margin-top:-25px;
+    }
+    .mb-45{
+        margin-top:-45px;
+    }
+    .ms-150{
+        margin-left: 150px;
+    }
+    .ms-200{
+        margin-left: 200px;
     }
 
     /* Gradient Colour */
     .first-section{
-        background: linear-gradient(#AAD4CE,#FFFFFF,#EC2A77A3);
+        background: linear-gradient(#AAD4CE,#FFFFFF,#EC2A77A3)!important;
 }
+
+/* Background Image */
+.header-section{
+    background-image: url(/imgs/Nav\ Background.png);
+    background-size: cover;
+    height:350px;
+}
+
 /* Cursor  */
 .cursor-pointer{
     cursor: pointer !important;;
