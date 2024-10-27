@@ -16,6 +16,9 @@ body{
 .fs-20{
     font-size: 20px!important;
 }
+.fs-30{
+    font-size: 30px!important;
+}
 .fs-40{
     font-size: 40px!important;
 }
@@ -59,6 +62,11 @@ body{
         margin-left: 200px;
     }
 
+/* Padding */
+.pb-50{
+    padding-bottom: 110px;
+}
+
     /* Gradient Colour */
     .first-section{
         background: linear-gradient(#AAD4CE,#FFFFFF,#EC2A77A3)!important;
@@ -68,7 +76,7 @@ body{
 .header-section{
     background-image: url(/imgs/Nav\ Background.png);
     background-size: cover;
-    height:350px;
+    height:400px;
 }
 
 /* Cursor  */
