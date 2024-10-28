@@ -12,3 +12,12 @@
     margin:10px 0 0 30px!important;
 }
 }
+
+@media (max-width:992px){
+.third-nav{
+    margin:10px 0 0 270px!important;
+}
+.cart{
+    margin:10px 0 0 40px!important;
+}
+}
