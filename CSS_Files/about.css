@@ -103,6 +103,22 @@ li.hover{
 }
 
 
+/* Hero section */
+
+
+
+.para_first{
+    width:450px !important;
+    height:250px !important;
+}
+
+
+
+.para_second{
+    width:450px !important;
+    height:250px !important;
+}
+
 /* Media Queries */
 
  
@@ -116,15 +132,31 @@ li.hover{
 .start-420{
     left:420px;
 }
+
+.para_first_margin{
+    margin-left: 50px !important;
+}
+
+.hero_space{
+    margin-left:70px !important
+}
+
+
+
 }
 
 @media (max-width: 768px) {
     /* Positions */
- .top-60{
-    top:50px;
+ .top-200{
+    top:200px;
 }
 
 .start-120{
     left:120px;
 }
+
+.first_para{
+    width:300px !important;
+}
+
 }
