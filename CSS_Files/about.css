@@ -66,6 +66,9 @@ body{
         margin-left:120px !important;
     }
 
+
+
+
 /* Padding */
 .pb-50{
     padding-bottom: 110px;
@@ -75,7 +78,12 @@ body{
     .back_img{
        background-image: url(../Imgs/Group\ 6.png);
        height:400px;
-    
+       /* background-size: contain;  */
+       background-size: cover;
+       background-repeat: no-repeat; /* Prevents the image from repeating */
+       background-position: center; /* Centers the image in the container */
+       width: 100%; /* Full width */
+      margin-bottom: 30px !important;
 }
 
 /* Background Image */
@@ -92,4 +100,31 @@ body{
 
 li.hover{
     color: #ec2a77 !important;;
+}
+
+
+/* Media Queries */
+
+ 
+
+@media (min-width: 768px) {
+    /* Positions */
+ .top-170{
+    top:170px;
+}
+
+.start-420{
+    left:420px;
+}
+}
+
+@media (max-width: 768px) {
+    /* Positions */
+ .top-60{
+    top:50px;
+}
+
+.start-120{
+    left:120px;
+}
 }
