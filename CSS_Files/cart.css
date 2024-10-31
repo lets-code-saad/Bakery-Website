@@ -11,6 +11,8 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+
+
 /* Font Sizes */
 .fs-10 {
   font-size: 10px !important;
@@ -46,7 +48,7 @@ body {
 .border-pink {
   border-color: #ec2a77 !important;
 }
-*/
+
 
     /* Margins */
      .mb-15 {
@@ -120,16 +122,16 @@ li.hover {
   padding: 0px 0px 5px 3px !important;
 }
 
-.input_width{
-    width:420px !important;
-}
-
-.input_length{
-    width:120px !important;
-}
-
 .pick_btn{
-    width:200px !important;
+    width:190px !important;
+}
+
+.pick_btn:hover{
+  cursor: pointer;
+}
+
+.delivery_btn:hover{
+  cursor:pointer;
 }
 
 /* Media Queries */
@@ -174,6 +176,18 @@ li.hover {
     height:600px !important;
 }
 
+.input_width{
+  width:420px !important;
+}
+
+.input_length{
+  width:120px !important;
+}
+
+.top_space{
+  margin-top: 100px !important;
+}
+
 }
 
 @media (max-width: 768px) {
@@ -209,4 +223,17 @@ li.hover {
     margin-left: 80px !important;
     margin-right: 20px !important;
   }
+
+  .input_width{
+    width:350px !important;
+  }
+
+  .input_length{
+    width:100px !important;
+}
+
+.vertical_height{
+  height:0px !important;
+}
+
 }
