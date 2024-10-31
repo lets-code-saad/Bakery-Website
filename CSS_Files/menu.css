@@ -114,15 +114,9 @@ li.hover {
 
 /* hero section cake first three cards  */
 
-.card_length{
-    width:200px !important;
+.card_length {
+  width: 200px !important;
 }
-
-
-
-
-
-
 
 /* Media Queries */
 
@@ -144,10 +138,9 @@ li.hover {
     margin-left: 70px !important;
   }
 
-  .cake_section_space{
+  .cake_section_space {
     margin-left: 70px !important;
   }
-
 }
 
 @media (max-width: 768px) {
@@ -164,8 +157,7 @@ li.hover {
     width: 300px !important;
   }
 
-  .cake_section_space{
+  .cake_section_space {
     margin-left: 60px !important;
   }
-  
 }
