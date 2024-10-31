@@ -121,13 +121,16 @@ li.hover {
 }
 
 .input_width{
-    width:450px !important;
+    width:420px !important;
 }
 
 .input_length{
-    width:130px !important;
+    width:120px !important;
 }
 
+.pick_btn{
+    width:200px !important;
+}
 
 /* Media Queries */
 
