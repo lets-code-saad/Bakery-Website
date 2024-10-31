@@ -11,8 +11,6 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-
-
 /* Font Sizes */
 .fs-10 {
   font-size: 10px !important;
@@ -49,9 +47,8 @@ body {
   border-color: #ec2a77 !important;
 }
 
-
-    /* Margins */
-     .mb-15 {
+/* Margins */
+.mb-15 {
   margin-top: -15px;
 }
 .mb-25 {
@@ -122,16 +119,16 @@ li.hover {
   padding: 0px 0px 5px 3px !important;
 }
 
-.pick_btn{
-    width:190px !important;
+.pick_btn {
+  width: 190px !important;
 }
 
-.pick_btn:hover{
+.pick_btn:hover {
   cursor: pointer;
 }
 
-.delivery_btn:hover{
-  cursor:pointer;
+.delivery_btn:hover {
+  cursor: pointer;
 }
 
 /* Media Queries */
@@ -168,26 +165,25 @@ li.hover {
     width: 200px !important;
   }
 
-  .checkout_space{
-    margin-left:40px !important;
+  .checkout_space {
+    margin-left: 40px !important;
   }
 
-.vertical_height{
-    height:600px !important;
-}
+  .vertical_height {
+    height: 600px !important;
+  }
 
-.input_width{
-  width:420px !important;
-}
+  .input_width {
+    width: 420px !important;
+  }
 
-.input_length{
-  width:120px !important;
-}
+  .input_length {
+    width: 120px !important;
+  }
 
-.top_space{
-  margin-top: 100px !important;
-}
-
+  .top_space {
+    margin-top: 100px !important;
+  }
 }
 
 @media (max-width: 768px) {
@@ -224,16 +220,15 @@ li.hover {
     margin-right: 20px !important;
   }
 
-  .input_width{
-    width:350px !important;
+  .input_width {
+    width: 350px !important;
   }
 
-  .input_length{
-    width:100px !important;
-}
+  .input_length {
+    width: 100px !important;
+  }
 
-.vertical_height{
-  height:0px !important;
-}
-
+  .vertical_height {
+    height: 0px !important;
+  }
 }
