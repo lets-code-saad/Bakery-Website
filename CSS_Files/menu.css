@@ -112,6 +112,18 @@ li.hover {
   height: 250px !important;
 }
 
+/* hero section cake first three cards  */
+
+.card_length{
+    width:200px !important;
+}
+
+
+
+
+
+
+
 /* Media Queries */
 
 @media (min-width: 768px) {
@@ -131,6 +143,11 @@ li.hover {
   .hero_space {
     margin-left: 70px !important;
   }
+
+  .cake_section_space{
+    margin-left: 70px !important;
+  }
+
 }
 
 @media (max-width: 768px) {
@@ -146,4 +163,9 @@ li.hover {
   .first_para {
     width: 300px !important;
   }
+
+  .cake_section_space{
+    margin-left: 60px !important;
+  }
+  
 }
