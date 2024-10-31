@@ -1,0 +1,92 @@
+/* Inter Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: "Inter", sans-serif;
+}
+
+/* Font Sizes */
+.fs-10{
+    font-size: 10px!important;
+}
+.fs-20{
+    font-size: 20px!important;
+}
+.fs-30{
+    font-size: 30px!important;
+}
+.fs-40{
+    font-size: 40px!important;
+}
+.fs-60{
+    font-size: 60px!important;
+}
+
+/* Colours */
+.text-pink{
+    color: #EC2A77!important;
+}
+.bg-pink{
+    background-color: #EC2A77!important;
+}
+.bg-light-pink{
+    background-color: #ff99c2!important;
+}
+.bg-light-blue{
+    background-color: #DFFFFA!important;
+}
+.clr{
+    background-color: #ff99c2!important;
+}
+
+/* Border Colours */
+.border-pink{
+        border-color: #EC2A77!important;
+    }
+
+    /* Margins */
+    .mb-15{
+        margin-top:-15px;
+    }
+    .mb-25{
+        margin-top:-25px;
+    }
+    .mb-45{
+        margin-top:-45px;
+    }
+    .ms-150{
+        margin-left: 150px;
+    }
+    .ms-200{
+        margin-left: 200px;
+    }
+
+/* Padding */
+.pb-50{
+    padding-bottom: 110px;
+}
+
+    /* Gradient Colour */
+    .first-section{
+        background: linear-gradient(#AAD4CE,#FFFFFF,#EC2A77A3)!important;
+}
+
+/* Background Image */
+.header-section{
+    background-image: url(./imgs/Nav\ Background.png);
+    background-size: cover;
+    height:400px;
+}
+
+/* Cursor  */
+.cursor-pointer{
+    cursor: pointer !important;;
+}
+
+li.hover{
+    color: #ec2a77 !important;;
+}
