@@ -1,12 +1,13 @@
 /* Inter Font */
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
-
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 * {
   margin: 0;
   padding: 0;
 }
 body {
-  font-family: "Inter", sans-serif;
+  /* font-family: "Inter", sans-serif; */
+  font-family: "Inter", serif!important;
 }
 
 /* Font Sizes */
@@ -72,24 +73,12 @@ body {
   padding-bottom: 110px;
 }
 
-/* back img */
-.back_img {
-  background-image: url(../Imgs/Group\ 6.png);
-  height: 400px;
-  /* background-size: contain;  */
-  background-size: cover;
-  background-repeat: no-repeat; /* Prevents the image from repeating */
-  background-position: center; /* Centers the image in the container */
-  width: 100%; /* Full width */
-  margin-bottom: 30px !important;
-}
-
 /* Background Image */
-/* .header-section{
+.header-section{
     background-image: url(/imgs/Nav\ Background.png);
     background-size: cover;
     height:400px;
-} */
+}
 
 /* Cursor  */
 .cursor-pointer {
@@ -111,6 +100,29 @@ li.hover {
   width: 450px !important;
   height: 250px !important;
 }
+
+/* Hover Effects */
+
+
+/* Cursor  */
+.cursor-pointer{
+  cursor: pointer !important;
+}
+
+li.hover{
+  color: #ec2a77 !important;
+  transition: ease 0.3s;
+}
+
+nav ul li a:hover{
+  transition: ease 0.3s;
+  color:#ff99c2!important;
+}
+.nav-item :hover{
+  transition: ease 0.3s;
+  color:#ff99c2!important;
+}
+
 
 /* Media Queries */
 

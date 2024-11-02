@@ -79,11 +79,42 @@ body{
     height:400px;
 }
 
+
+/* Hover Effects */
+
+
 /* Cursor  */
 .cursor-pointer{
-    cursor: pointer !important;;
+    cursor: pointer !important;
 }
 
 li.hover{
-    color: #ec2a77 !important;;
+    color: #ec2a77 !important;
+    transition: ease 0.3s;
+}
+
+nav ul li a:hover{
+    transition: ease 0.3s;
+    color:#ff99c2!important;
+}
+.nav-item :hover{
+    transition: ease 0.3s;
+    color:#ff99c2!important;
+}
+
+.sale-section button:hover{
+background: none!important;
+border: 1px solid #ff257c!important;
+transition: ease 0.3s;
+}
+.btn1 button:hover{
+background: none!important;
+border: 1px solid #ff257c!important;
+transition: ease 0.3s;
+}
+.btn2 button:hover{
+border: none!important;
+color:white!important;
+background-color: #ff257c!important;
+transition: ease 0.3s;
 }

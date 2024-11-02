@@ -72,24 +72,14 @@ body {
   padding-bottom: 110px;
 }
 
-/* back img */
-.back_img {
-  background-image: url(../Imgs/Group\ 6.png);
-  height: 400px;
-  /* background-size: contain;  */
-  background-size: cover;
-  background-repeat: no-repeat; /* Prevents the image from repeating */
-  background-position: center; /* Centers the image in the container */
-  width: 100%; /* Full width */
-  margin-bottom: 30px !important;
-}
+
 
 /* Background Image */
-/* .header-section{
-    background-image: url(/imgs/Nav\ Background.png);
+.header-section{
+    background-image: url(/imgs/Nav\ Background.png)!important;
     background-size: cover;
     height:400px;
-} */
+}
 
 /* Cursor  */
 .cursor-pointer {
@@ -117,6 +107,29 @@ li.hover {
 .card_length {
   width: 200px !important;
 }
+
+/* Hover Effects */
+
+
+/* Cursor  */
+.cursor-pointer{
+  cursor: pointer !important;
+}
+
+li.hover{
+  color: #ec2a77 !important;
+  transition: ease 0.3s;
+}
+
+nav ul li a:hover{
+  transition: ease 0.3s;
+  color:#ff99c2!important;
+}
+.nav-item :hover{
+  transition: ease 0.3s;
+  color:#ff99c2!important;
+}
+
 
 /* Media Queries */
 

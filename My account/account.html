@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Bakery Website</title>
     <!-- Style Sheet -->
     <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="/media-query.css">
@@ -14,6 +14,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+            <!-- Fav Icon -->
+     <link rel="shortcut icon" href="/My account/imgs/favicon.ico" type="image/x-icon">
     <!-- Iconify Icons -->
     <script src="https://cdn.jsdelivr.net/npm/iconify-icon@2.1.0/dist/iconify-icon.min.js"></script>
 </head>
@@ -36,7 +38,7 @@
                 <div class="collapse navbar-collapse justify-content-around" id="navbarNav">
                     <ul class="navbar-nav fs-20 align-items-center mb-45">
                         <li class="nav-item">
-                            <a class="nav-link active text-black" aria-current="page" href="../index.html">Home</a>
+                            <a class="nav-link active text-black" aria-current="page" href="/index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-black" href="../html_files/about.html">About</a>
@@ -72,130 +74,98 @@
     </section>
 
     <!-- Contact Section -->
-    <section class="container mt-5">
-        <div class="contact-section row">
-            <div class="contact-left ms-5 col-lg-6 col-sm-12 col-md-5">
-                <div class="row">
-                <div class="upper-portion col-lg-8 d-flex flex-wrap align-items-center gap-5">
-                    <div class="upper-two-cards d-flex gap-4">
-                        <div
-                            class="card-1 bg-light-blue py-3 px-4 border-0 rounded-4 d-flex flex-column justify-content-center align-items-center">
-                            <iconify-icon class="d-flex fs-30" icon="ion:call"></iconify-icon>
-                            <h4 class="mt-2">Phone</h4>
-                            <p class="text-secondary">207-677-2993</p>
-                        </div>
-                        <div
-                            class="card-2 bg-light-blue py-3 px-3 border-0 rounded-4 d-flex flex-column gap-1 justify-content-center align-items-center">
-                            <iconify-icon class="d-flex fs-30" icon="fontisto:whatsapp"></iconify-icon>
-                            <h4 class="mt-2">Whatsapp</h4>
-                            <p class="text-secondary">207-67-293456</p>
-                        </div>
-                    </div>
-                    <div class="lower-two-cards d-flex gap-4">
-                        <div
-                            class="card-3 bg-light-blue py-3 px-2 border-0 rounded-4 d-flex flex-column justify-content-center align-items-center">
-                            <iconify-icon class="d-flex fs-30" icon="ic:outline-email"></iconify-icon>
-                            <h4 class="mt-2">Email</h4>
-                            <p class="text-secondary">Crave@gmail.com</p>
-                        </div>
-                        <div
-                            class="card-4 bg-light-blue py-3 px-2 border-0 rounded-4 d-flex flex-column justify-content-center align-items-center">
-                            <iconify-icon class="d-flex fs-30" icon="mdi:cart-outline"></iconify-icon>
-                            <h4 class="mt-2">Our Shop</h4>
-                            <p class="text-secondary">12 Street, IL 62704</p>
-                        </div>
-                    </div>
+    <section class="container">
+        <div class="contact-section row d-flex gap-5">
+            <div class="contact-left col-lg-4 col-sm-12 col-md-5">
+                <img src="/My account/imgs/Group 7.png" alt="" class="img-fluid">
+            </div>
+        <div class="contact-right mt-5 col-lg-4 col-sm-12 col-md-5">
+            <div class="head">
+                <h2>Sign up</h2>
+            </div>
+            <div class="inputs mt-4 d-flex flex-column gap-3">
+                <div class="input-1 d-flex flex-column gap-2">
+                    <h2 class="fs-30">Name</h2>
+                    <input required class="fw-medium text-secondary py-2 ps-2 w-100 border-1 rounded-4" type="text"
+                        placeholder="Enter Your Name">
                 </div>
-                <div class="lower-portion col-lg-10 mt-5">
-                    <iframe class="border-0 rounded-4"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46830151.11795828!2d-119.8093025!3d44.24236485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited%20States!5e0!3m2!1sen!2s!4v1730014487300!5m2!1sen!2s"
-                        width="315" height="380" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="input-2 d-flex flex-column gap-2">
+                    <h2 class="fs-30">Email</h2>
+                    <input required class="fw-medium text-secondary py-2 ps-2 w-100 border-1 rounded-4" type="email"
+                        placeholder="Enter Your Email">
                 </div>
+                <div class="input-3 d-flex flex-column gap-2">
+                    <h2 class="fs-30">Password</h2>
+                    <input required class="fw-medium text-secondary py-2 ps-2 w-100 border-1 rounded-4" type="text"
+                        placeholder="Enter Your Name">
+                </div>
+                <div class="input-4 d-flex flex-column gap-2">
+                    <h2 class="fs-30">Confirm password</h2>
+                    <input required class="fw-medium text-secondary py-2 ps-2 w-100 border-1 rounded-4" type="text"
+                        placeholder="Enter Your Name">
+                </div>
+                <div class="send-button mt-3">
+                    <button type="submit"
+                        class="bg-light-pink text-center border-0 rounded-pill w-100 py-3 text-white text-start ps-3 fw-medium">Sign
+                        Up</button>
                 </div>
             </div>
-            <div class="contact-right col-lg-5 col-sm-12 col-md-5">
-                <div class="head">
-                    <h2>Sign up</h2>
-                   
+            </form>
+            <div class="contact-icons d-flex gap-3 mt-4">
+                <div class="w-100">
+                    <button type="button" class="btn btn-outline-dark d-flex justify-content-center align-items-center w-100 gap-1 fs-20 rounded-pill"><iconify-icon
+                            icon="ic:round-facebook"></iconify-icon>Facebook</button>
                 </div>
-                <form>
-                    
-                <div class="inputs d-flex flex-column gap-4">
-                    <div class="input-1 d-flex flex-column gap-2">
-                        <h2 class="fs-30">Name</h2>
-                        <input required class="fw-medium text-secondary py-3 ps-2 w-100 border-1 rounded-pill" type="text" placeholder="Enter Your Name">
-                    </div>
-                    <div class="input-2 d-flex flex-column gap-2">
-                        <h2 class="fs-30">Email</h2>
-                        <input required class="fw-medium text-secondary py-3 ps-2 w-100 border-1 rounded-pill" type="email" placeholder="Enter Your Email">
-                    </div>
-                    <div class="input-1 d-flex flex-column gap-2">
-                        <h2 class="fs-30">Password</h2>
-                        <input required class="fw-medium text-secondary py-3 ps-2 w-100 border-1 rounded-pill" type="text" placeholder="Enter Your Name">
-                    </div>
-                    <div class="input-1 d-flex flex-column gap-2">
-                        <h2 class="fs-30">Confirm password</h2>
-                        <input required class="fw-medium text-secondary py-3 ps-2 w-100 border-1 rounded-pill" type="text" placeholder="Enter Your Name">
-                    </div>
-                   
-                    <div class="send-button">
-                        <button type="submit" class="bg-light-pink border-0 rounded-4 w-100 py-3 text-white text-start ps-3 fw-medium clr">Sign Up</button>
-                    </div>
-                </form>
+                <div class="w-100">
+                    <button type="button" class="btn btn-outline-dark text-center justify-content-center d-flex w-100 align-items-center gap-1 fs-20 rounded-pill"><iconify-icon
+                        icon="uil:twitter"></iconify-icon>Twitter</button>
                 </div>
-                <div class="d-flex mt-3">
-                    <div class=""><button type="button" class="btn btn-outline-dark me-3 rounded-pill"><iconify-icon icon="ic:round-facebook"></iconify-icon>Facebook</button>
-                    </div>
-                    <div><button type="button" class="btn btn-outline-dark rounded-pill">Twitter</button>
-                    </div>
-                </div>
+            </div>
         </div>
-                </div>
-              
-       
     </section>
 
 
-<!-- Footer Section -->
-<footer class="bg-black mt-5">
-    <div class="footer-section container">
-        <div class="all-footers py-4">
-        <div class="row d-flex justify-content-around">
-    <div class="f-line-1 col-lg-3 col-sm-12 col-md-4">
-        <p class="cursor-pointer text-white">Read</p>
-<ul class="list-unstyled text-white d-flex flex-column gap-1">
-    <li class="cursor-pointer">Recipes</li>
-    <li class="cursor-pointer">Menu</li>
-    <li class="cursor-pointer">News</li>
-    <li class="cursor-pointer">Contact</li>
-</ul>
-    </div>
-    <div class="f-line-2 col-lg-3 col-sm-12 col-md-4">
-        <span class="cursor-pointer text-white border-bottom border-danger">Company</span>
-<ul class="list-unstyled text-white mt-3 d-flex flex-column gap-1">
-    <li class="cursor-pointer">Our Store</li>
-    <li class="cursor-pointer">Our Products</li>
-    <li class="cursor-pointer">Find Us</li>
-    <li class="cursor-pointer">Wholesale Account</li>
-    <li class="cursor-pointer">Privacy Policy</li>
-</ul>
-    </div>
-    <div class="f-line-2 col-lg-3 col-sm-12 col-md-4">
-<p class="text-secondary">CarveBakers</p>
-<p class="fw-medium text-white">At Crave Bakes, we craft delicious treats
-    that bring joy to every bite. With love and
-    care.</p>
-    <div class="position-relative d-flex align-items-center">
-   <p><iconify-icon icon="line-md:email" class="text-white fs-5 ps-2 position-absolute"></iconify-icon></p>     
-    <input type="email" placeholder="Enter Your Email" class="w-100 ps-5 fs-6 bg-black text-white border border-white py-2">
-<button class="fs-6 px-2 py-2 px-3 border-0 position-absolute end-0">Join</button>
-</div>
-</div>
-    </div>
-    </div>
-    </div>
-  </footer>
+    <!-- Footer Section -->
+    <footer class="bg-black mt-5">
+        <div class="footer-section container">
+            <div class="all-footers py-4">
+                <div class="row d-flex justify-content-around">
+                    <div class="f-line-1 col-lg-3 col-sm-12 col-md-4">
+                        <p class="cursor-pointer text-white">Read</p>
+                        <ul class="list-unstyled text-white d-flex flex-column gap-1">
+                            <li class="cursor-pointer">Recipes</li>
+                            <li class="cursor-pointer">Menu</li>
+                            <li class="cursor-pointer">News</li>
+                            <li class="cursor-pointer">Contact</li>
+                        </ul>
+                    </div>
+                    <div class="f-line-2 col-lg-3 col-sm-12 col-md-4">
+                        <span class="cursor-pointer text-white border-bottom border-danger">Company</span>
+                        <ul class="list-unstyled text-white mt-3 d-flex flex-column gap-1">
+                            <li class="cursor-pointer">Our Store</li>
+                            <li class="cursor-pointer">Our Products</li>
+                            <li class="cursor-pointer">Find Us</li>
+                            <li class="cursor-pointer">Wholesale Account</li>
+                            <li class="cursor-pointer">Privacy Policy</li>
+                        </ul>
+                    </div>
+                    <div class="f-line-2 col-lg-3 col-sm-12 col-md-4">
+                        <p class="text-secondary">CarveBakers</p>
+                        <p class="fw-medium text-white">At Crave Bakes, we craft delicious treats
+                            that bring joy to every bite. With love and
+                            care.</p>
+                        <div class="position-relative d-flex align-items-center">
+                            <p><iconify-icon icon="line-md:email"
+                                    class="text-white fs-5 ps-2 position-absolute"></iconify-icon></p>
+                            <input type="email" placeholder="Enter Your Email"
+                                class="w-100 ps-5 fs-6 bg-black text-white border border-white py-2">
+                            <button class="fs-6 px-2 py-2 px-3 border-0 position-absolute end-0">Join</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 </body>
 
